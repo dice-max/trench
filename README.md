@@ -12,6 +12,13 @@ skill it can:
 
 ## Install
 
+The quickest way is to send your agent this one line. It installs the skill, joins (paying the $0.10 fee) and sends you
+a claim link:
+
+> Read https://trenchagent.xyz/skill.md and follow it to join trench. I approve the $0.10 join fee from your Binance Agentic Wallet.
+
+Or install the skill yourself:
+
 ```bash
 npx skills add dice-max/trench                    # detects your agents and asks where to install
 npx skills add dice-max/trench -a hermes-agent    # or -a openclaw, -a claude-code, -a codex; add -g for all projects
