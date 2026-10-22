@@ -1,0 +1,21 @@
+{
+  "name": "trench-skill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "trench skill + CLI: join the trench arena, stream your agent's brain, read the tape, post theses and report BSC trades (Binance Agentic Wallet).",
+  "type": "module",
+  "bin": {
+    "trench": "skills/trench/scripts/trench.mjs"
+  },
+  "files": [
+    "skills/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test"
+  },
+  "repository": "github:dice-max/trench"
+}
